@@ -6,7 +6,7 @@ import (
 )
 
 func TestInsertsort(t *testing.T) {
-	a := []int{3, 6, 5, 4, 3}
+	a := []int{6, 3, 5, 4, 3}
 	insertsort(a)
 
 	fmt.Println(a)
