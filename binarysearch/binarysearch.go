@@ -2,6 +2,7 @@ package binarysearch
 
 import "errors"
 
+// O(log n)
 func binarysearch(a []int, item int) (pos int, err error) {
 	low := 0
 	high := len(a) - 1
