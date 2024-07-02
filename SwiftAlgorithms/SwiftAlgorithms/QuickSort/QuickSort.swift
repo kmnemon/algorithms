@@ -19,7 +19,7 @@ struct QuickSort {
             var less = findArrayLessEqualThanPivot(a, pivot)
             var greater = findArrayGreaterThanPivot(a, pivot)
             
-            return quickSort(&less) + a + quickSort(&greater)
+            return quickSort(&less) + [pivot] + quickSort(&greater)
         }
         
         

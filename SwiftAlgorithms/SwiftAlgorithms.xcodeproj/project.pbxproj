@@ -15,6 +15,8 @@
 		8ADA9C892C3406530081ABDE /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C882C3406530081ABDE /* QuickSort.swift */; };
 		8ADA9C8C2C340D9A0081ABDE /* QuickSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C8B2C340D9A0081ABDE /* QuickSortTests.swift */; };
 		8ADA9C8D2C340E020081ABDE /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C882C3406530081ABDE /* QuickSort.swift */; };
+		8ADA9C8F2C3438760081ABDE /* MergeSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C8E2C3438760081ABDE /* MergeSortTests.swift */; };
+		8ADA9C902C3438970081ABDE /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C852C3405620081ABDE /* MergeSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +40,7 @@
 		8ADA9C852C3405620081ABDE /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		8ADA9C882C3406530081ABDE /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		8ADA9C8B2C340D9A0081ABDE /* QuickSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortTests.swift; sourceTree = "<group>"; };
+		8ADA9C8E2C3438760081ABDE /* MergeSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,7 @@
 		8ADA9C842C3405500081ABDE /* MergeSort */ = {
 			isa = PBXGroup;
 			children = (
+				8ADA9C8E2C3438760081ABDE /* MergeSortTests.swift */,
 			);
 			path = MergeSort;
 			sourceTree = "<group>";
@@ -247,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADA9C902C3438970081ABDE /* MergeSort.swift in Sources */,
 				8ADA9C822C33F69C0081ABDE /* SelectionSort.swift in Sources */,
+				8ADA9C8F2C3438760081ABDE /* MergeSortTests.swift in Sources */,
 				8ADA9C802C33F5430081ABDE /* SelectionSortTests.swift in Sources */,
 				8ADA9C8C2C340D9A0081ABDE /* QuickSortTests.swift in Sources */,
 				8ADA9C8D2C340E020081ABDE /* QuickSort.swift in Sources */,
