@@ -4,9 +4,12 @@ func quicksort(a []int) []int {
 	if len(a) < 2 {
 		return a
 	} else {
-		pivot := a[0]
-		less := findArrayLessEqualThanPivot(a[1:], pivot)
-		greater := findArrayGreaterThanPivot(a[1:], pivot)
+		index := len(a) / 2
+		pivot := a[index]
+
+		a = append(a[:index], a[index+1:]...)
+		less := findArrayLessEqualThanPivot(a, pivot)
+		greater := findArrayGreaterThanPivot(a, pivot)
 
 		return composeArray(composeArray(quicksort(less), []int{pivot}), quicksort(greater))
 	}
