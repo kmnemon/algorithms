@@ -22,6 +22,9 @@
 		8ADA9C992C3449BD0081ABDE /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C982C3449BD0081ABDE /* InsertSort.swift */; };
 		8ADA9C9A2C34D4960081ABDE /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C982C3449BD0081ABDE /* InsertSort.swift */; };
 		8ADA9C9D2C34D4B00081ABDE /* InsertSortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9C9C2C34D4B00081ABDE /* InsertSortTests.swift */; };
+		8ADA9CBB2C37E6780081ABDE /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9CBA2C37E6780081ABDE /* BreadthFirstSearch.swift */; };
+		8ADA9CBE2C37F5C60081ABDE /* BreadthFirstSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9CBD2C37F5C60081ABDE /* BreadthFirstSearchTests.swift */; };
+		8ADA9CBF2C37F6E70081ABDE /* BreadthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA9CBA2C37E6780081ABDE /* BreadthFirstSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +53,8 @@
 		8ADA9C952C3443EC0081ABDE /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		8ADA9C982C3449BD0081ABDE /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
 		8ADA9C9C2C34D4B00081ABDE /* InsertSortTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSortTests.swift; sourceTree = "<group>"; };
+		8ADA9CBA2C37E6780081ABDE /* BreadthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearch.swift; sourceTree = "<group>"; };
+		8ADA9CBD2C37F5C60081ABDE /* BreadthFirstSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreadthFirstSearchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +96,7 @@
 		8ADA9C672C33F0690081ABDE /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				8ADA9CB92C37E65A0081ABDE /* BreadthFirstSearch */,
 				8ADA9C972C3449A40081ABDE /* InsertSort */,
 				8ADA9C942C3443C90081ABDE /* BinarySearch */,
 				8ADA9C912C3442B30081ABDE /* Recursion */,
@@ -113,6 +119,7 @@
 		8ADA9C782C33F4C90081ABDE /* SwiftAlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
+				8ADA9CBC2C37F5AE0081ABDE /* BreadthFirstSearch */,
 				8ADA9C9B2C34D49C0081ABDE /* InsertSort */,
 				8ADA9C8A2C340D840081ABDE /* QuickSort */,
 				8ADA9C842C3405500081ABDE /* MergeSort */,
@@ -191,6 +198,22 @@
 				8ADA9C9C2C34D4B00081ABDE /* InsertSortTests.swift */,
 			);
 			path = InsertSort;
+			sourceTree = "<group>";
+		};
+		8ADA9CB92C37E65A0081ABDE /* BreadthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA9CBA2C37E6780081ABDE /* BreadthFirstSearch.swift */,
+			);
+			path = BreadthFirstSearch;
+			sourceTree = "<group>";
+		};
+		8ADA9CBC2C37F5AE0081ABDE /* BreadthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA9CBD2C37F5C60081ABDE /* BreadthFirstSearchTests.swift */,
+			);
+			path = BreadthFirstSearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +311,7 @@
 				8ADA9C862C3405620081ABDE /* MergeSort.swift in Sources */,
 				8ADA9C932C3443460081ABDE /* Recursion.swift in Sources */,
 				8ADA9C992C3449BD0081ABDE /* InsertSort.swift in Sources */,
+				8ADA9CBB2C37E6780081ABDE /* BreadthFirstSearch.swift in Sources */,
 				8ADA9C962C3443EC0081ABDE /* BinarySearch.swift in Sources */,
 				8ADA9C692C33F0690081ABDE /* main.swift in Sources */,
 				8ADA9C712C33F3B30081ABDE /* SelectionSort.swift in Sources */,
@@ -302,9 +326,11 @@
 				8ADA9C9D2C34D4B00081ABDE /* InsertSortTests.swift in Sources */,
 				8ADA9C902C3438970081ABDE /* MergeSort.swift in Sources */,
 				8ADA9C822C33F69C0081ABDE /* SelectionSort.swift in Sources */,
+				8ADA9CBE2C37F5C60081ABDE /* BreadthFirstSearchTests.swift in Sources */,
 				8ADA9C9A2C34D4960081ABDE /* InsertSort.swift in Sources */,
 				8ADA9C8F2C3438760081ABDE /* MergeSortTests.swift in Sources */,
 				8ADA9C802C33F5430081ABDE /* SelectionSortTests.swift in Sources */,
+				8ADA9CBF2C37F6E70081ABDE /* BreadthFirstSearch.swift in Sources */,
 				8ADA9C8C2C340D9A0081ABDE /* QuickSortTests.swift in Sources */,
 				8ADA9C8D2C340E020081ABDE /* QuickSort.swift in Sources */,
 			);

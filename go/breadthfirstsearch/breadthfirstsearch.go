@@ -30,9 +30,15 @@ func (q *Queue[T]) IsEmpty() bool {
 	return len(q.items) == 0
 }
 
+func (q *Queue[T]) addSliceToQueue(s []T) {
+	for _, v := range s {
+		q.Enqueue(v)
+	}
+}
+
 func breadthFirstSearch(graph map[string][]string, name string) bool {
 	var searchDeque Queue[string]
-	addSliceToQueue(graph["you"], &searchDeque)
+	searchDeque.addSliceToQueue(graph["you"])
 	searched := map[string]struct{}{}
 
 	for !searchDeque.IsEmpty() {
@@ -43,7 +49,7 @@ func breadthFirstSearch(graph map[string][]string, name string) bool {
 				fmt.Println("found the person")
 				return true
 			} else {
-				addSliceToQueue(graph[person], &searchDeque)
+				searchDeque.addSliceToQueue(graph[person])
 				searched[person] = struct{}{}
 			}
 		}
@@ -51,12 +57,6 @@ func breadthFirstSearch(graph map[string][]string, name string) bool {
 	}
 
 	return false
-}
-
-func addSliceToQueue[T any](s []T, q *Queue[T]) {
-	for _, v := range s {
-		q.Enqueue(v)
-	}
 }
 
 func findPerson(person string, name string) bool {
